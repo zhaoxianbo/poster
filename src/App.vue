@@ -142,7 +142,7 @@
               size="mini"
             ></el-input-number>
           </el-form-item>
-          <template v-if="['text'].includes(attrForm.t)">
+          <template v-if="['text','qrcode'].includes(attrForm.t)">
             <el-divider content-position="left">颜色</el-divider>
             <el-form-item label="颜色">
               <el-color-picker

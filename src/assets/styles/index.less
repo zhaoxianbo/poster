@@ -28,7 +28,17 @@
       height: 30px;
       cursor: pointer;
       &.active {
-        background: #eee;
+				position: relative;
+        background: #e9efff;
+				&::before{
+					content: ' ';
+					position: absolute;
+					top: 0;
+					left: 0;
+					bottom: 0;
+					width: 4px;
+					background-color: #409EFF;
+				}
       }
       .layer-name {
         flex: 1;

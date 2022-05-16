@@ -1,0 +1,51 @@
+{
+  "id": "3398006",
+  "name": "poster",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "52742",
+      "name": "下载",
+      "font_class": "download",
+      "unicode": "e645",
+      "unicode_decimal": 58949
+    },
+    {
+      "icon_id": "1186829",
+      "name": "二维码",
+      "font_class": "qrcode",
+      "unicode": "e67a",
+      "unicode_decimal": 59002
+    },
+    {
+      "icon_id": "9874537",
+      "name": "KHCFDC_头像 ",
+      "font_class": "avatar",
+      "unicode": "e6de",
+      "unicode_decimal": 59102
+    },
+    {
+      "icon_id": "12706985",
+      "name": "图片",
+      "font_class": "image",
+      "unicode": "e691",
+      "unicode_decimal": 59025
+    },
+    {
+      "icon_id": "15726983",
+      "name": "预览",
+      "font_class": "preview",
+      "unicode": "e65b",
+      "unicode_decimal": 58971
+    },
+    {
+      "icon_id": "20594659",
+      "name": "多行文本",
+      "font_class": "text",
+      "unicode": "e63e",
+      "unicode_decimal": 58942
+    }
+  ]
+}

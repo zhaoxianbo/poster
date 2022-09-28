@@ -13,9 +13,10 @@
 .poster-container {
   width: 100vw;
   height: 100vh;
-  display: flex;
+  position: relative;
   overflow: hidden;
   .poster-layer {
+    left: 0;
     width: 240px;
     .el-tabs__content {
       border-right: 1px solid #eee;
@@ -133,6 +134,7 @@
     }
   }
   .poster-setting {
+    right: 0;
     width: 300px;
     .el-tabs__content {
       border-left: 1px solid #eee;
@@ -146,6 +148,11 @@
     }
   }
   .el-tabs {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 9;
+    background: #fff;
     display: flex;
     flex-direction: column;
     .el-tabs__header {

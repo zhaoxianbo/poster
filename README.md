@@ -1,6 +1,6 @@
 # vue2-poster
 
-## [在线预览](http://qq362106048.gitee.io/vue2-poster/)
+## [在线预览](http://zhaobo423.gitee.io/vue2-poster/)
 
 ## Project setup
 ```

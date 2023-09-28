@@ -69,7 +69,7 @@
           <vdr
             class="layer-item"
             v-for="item in [...posterForm.items].reverse()"
-            :key="item.uuid"
+            :key="`${item.uuid}${posterForm.scale}`"
             parent
             :parent-width="posterForm.width * posterForm.scale"
             :parent-height="posterForm.height * posterForm.scale"

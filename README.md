@@ -1,6 +1,6 @@
 # vue2-poster
 
-## [在线预览](http://zhaobo423.gitee.io/vue2-poster/)
+## [在线预览](https://zhaoxianbo.github.io/poster/)
 
 ## Project setup
 ```
